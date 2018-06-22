@@ -1,0 +1,49 @@
+{
+  "msg_code": "code 2222",
+  "msg_content": "ttt1",
+  "msg_items": [
+      {
+          "type": "SELECTION_CHOICE_1",
+          "data": "_1|_2|_3",
+          "name": "Radio",
+          "trigger": "nd_name2222"
+      },
+      {
+          "type": "SELECTION_CHOICE_2",
+          "data": "_1|_2",
+          "name": "Selection",
+          "trigger": "nd_name2222"
+      },
+      {
+          "type": "TEXT_VALUE",
+          "data": "vvzvzv zvzvz",
+          "name": "Order",
+          "trigger": "zzzz"
+      },
+      {
+          "type": "TEXT_INPUT",
+          "data": "example",
+          "name": "Control",
+          "trigger": "popo"
+      },
+      {
+          "type": "INTEGER_NUMBER",
+          "data": "5",
+          "name": "Count",
+          "trigger": "zzfz"
+      },
+      {
+          "type": "REAL_NUMBER",
+          "data": "5.5",
+          "name": "Percentage",
+          "trigger": "lpm"
+      },
+      {
+          "type": "MULTIPLE_CHOICE",
+          "data": "f15|f16|f17",
+          "name": "Module",
+          "trigger": "lpma"
+      }
+  ],
+  "msg_warning_level": 1
+}

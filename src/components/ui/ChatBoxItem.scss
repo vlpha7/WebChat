@@ -1,0 +1,33 @@
+.list-item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    &.send-list-item {
+        align-items: flex-end;
+        .mess-content-wrapper {
+            justify-content: flex-end;
+        }
+    }
+    &.receive-list-item {
+        align-items: flex-start;
+        .mess-content-wrapper {
+            justify-content: flex-start;
+        }
+    }
+    .mess-date {
+        width: fit-content;
+    }
+    .mess-content-wrapper {
+        display: flex;
+        flex-direction: row;   
+        width: 80%;
+        align-items: center;
+        .mess-content-body {
+            border-radius: 10px;
+            max-width: 90%;
+            width: fit-content;
+            background-color: lightblue;
+            padding: 15px 10px 15px 10px;
+        }
+    }
+}
